@@ -1,0 +1,10 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appID": "38X8FL2527.com.qj.gytv.app",
+                "paths": ["/path/*", "/*"] 
+            }
+        ]
+    }
+}

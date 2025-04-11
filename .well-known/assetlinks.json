@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.gytv.app",
+      "sha256_cert_fingerprints":
+        ["33:99:EF:F7:3A:7B:30:9F:08:F5:0E:B8:95:D1:3D:C3:36:40:EB:E4:89:6E:45:9D:AE:65:6C:BC:C7:DA:B8:FB", "07:CD:54:7A:B0:1C:38:C8:97:CA:18:F1:48:B8:FE:4F:82:2D:8E:D0:A9:C3:A4:F8:D2:ED:CA:75:FE:B6:6E:FB"]
+    }
+  }
+]
