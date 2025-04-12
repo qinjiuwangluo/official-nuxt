@@ -215,7 +215,7 @@ const name = ref('comon')
 const data = ref({})
 const mock = await useMock()
 onMounted(async () => {
-  const dataObj = await dataFetch(mock, window.location.host.split('.')[0])
+  const dataObj = await dataFetch(mock, window.location.host.split('.')[1])
   name.value = dataObj.name
   data.value = dataObj.data
 })

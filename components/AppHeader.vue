@@ -89,7 +89,7 @@ const scrollPosition = ref(0)
 const name = ref('comon')
 const mock = await useMock()
 onMounted(async () => {
-  name.value = await dataFetch(mock, window.location.host.split('.')[0]).name
+  name.value = await dataFetch(mock, window.location.host.split('.')[1]).name
   window.addEventListener('scroll', updateScrollPosition)
 })
 onUnmounted(() => {

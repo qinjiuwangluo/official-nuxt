@@ -13,8 +13,12 @@ export default defineNuxtConfig({
     'pinia-plugin-persistedstate/nuxt',
     '@nuxt/icon'
   ],
-  css: ['~/assets/less/tailwind.css','~/assets/less/index.less','animate.css/animate.min.css'],
-  
+  css: [
+    '~/assets/less/tailwind.css',
+    '~/assets/less/index.less',
+    'animate.css/animate.min.css'
+  ],
+
   // 运行时的全局变量
   runtimeConfig: {
     public: {
@@ -24,10 +28,8 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      link: [{ rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' }],
-      script: [
-        { src: 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'},
-      ],
+      link: [],
+      script: []
     }
   },
   build: {
@@ -59,5 +61,5 @@ export default defineNuxtConfig({
         selectorBlackList: ['.el', '.vjs'] // 不进行px转换的选择器
       }
     }
-  },
+  }
 })

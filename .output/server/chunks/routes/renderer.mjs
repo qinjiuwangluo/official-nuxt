@@ -1,5 +1,5 @@
 import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'vue-bundle-renderer/runtime';
-import { e as defineRenderHandler, f as buildAssetsURL, p as publicAssetsURL, g as getQuery, h as createError, i as getRouteRules, u as useRuntimeConfig, j as getResponseStatus, k as getResponseStatusText, b as useNitroApp } from '../_/nitro.mjs';
+import { c as defineRenderHandler, e as buildAssetsURL, p as publicAssetsURL, g as getQuery, f as createError, h as getRouteRules, u as useRuntimeConfig, i as getResponseStatus, j as getResponseStatusText, b as useNitroApp } from '../_/nitro.mjs';
 import { stringify, uneval } from 'devalue';
 import { renderToString } from 'vue/server-renderer';
 import { propsToString, renderSSRHead } from '@unhead/ssr';
@@ -77,7 +77,7 @@ const unheadPlugins = true ? [CapoPlugin({ track: true })] : [];
 
 const renderSSRHeadOptions = {"omitLineBreaks":false};
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"}],"style":[],"script":[{"src":"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"}],"noscript":[]};
+const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[]};
 
 const appRootTag = "div";
 

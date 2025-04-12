@@ -1,5 +1,5 @@
 import { version, unref, inject, defineAsyncComponent, ref, getCurrentInstance, computed, defineComponent, h, provide, shallowReactive, watch, Suspense, nextTick, Fragment, Transition, hasInjectionContext, mergeProps, createApp, effectScope, reactive, getCurrentScope, shallowRef, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, useSSRContext, toRef, withCtx, isReadonly, toRaw, Text, isRef, isShallow, isReactive } from 'vue';
-import { $ as $fetch$1, l as baseURL, m as hasProtocol, n as isScriptProtocol, o as joinURL, w as withQuery, h as createError$1, q as klona, r as defu, v as sanitizeStatusCode, x as defuFn, y as getContext, z as createHooks, A as toRouteMatcher, B as createRouter$1, d as destr, C as parse, D as getRequestHeader, E as isEqual, F as setCookie, G as getCookie, H as deleteCookie } from '../_/nitro.mjs';
+import { $ as $fetch$1, k as baseURL, l as hasProtocol, m as isScriptProtocol, n as joinURL, w as withQuery, f as createError$1, o as klona, q as defu, r as sanitizeStatusCode, v as defuFn, x as getContext, y as createHooks, z as toRouteMatcher, A as createRouter$1, d as destr, B as parse, C as getRequestHeader, D as isEqual, E as setCookie, F as getCookie, G as deleteCookie } from '../_/nitro.mjs';
 import { createPinia, setActivePinia, shouldHydrate } from 'pinia';
 import { getActiveHead, CapoPlugin } from 'unhead';
 import { defineHeadPlugin } from '@unhead/shared';
@@ -596,42 +596,42 @@ const _routes = [
   {
     name: "civizatio_convention",
     path: "/civizatio_convention",
-    component: () => import('./civizatio_convention-Cd8gj9TM.mjs')
+    component: () => import('./civizatio_convention-DzH6oOqt.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-BYM5cHA2.mjs')
+    component: () => import('./index-Du9B0iI2.mjs')
   },
   {
     name: "information_protection",
     path: "/information_protection",
-    component: () => import('./information_protection-BIA5tskL.mjs')
+    component: () => import('./information_protection-C6eAFsIW.mjs')
   },
   {
     name: "information_sharing",
     path: "/information_sharing",
-    component: () => import('./information_sharing-CLc0SxHo.mjs')
+    component: () => import('./information_sharing-T_gv_OgF.mjs')
   },
   {
     name: "member_ship_agreement",
     path: "/member_ship_agreement",
-    component: () => import('./member_ship_agreement-CXpFyjQe.mjs')
+    component: () => import('./member_ship_agreement-Cn8CvFLr.mjs')
   },
   {
     name: "persoInfor_disclosure",
     path: "/persoInfor_disclosure",
-    component: () => import('./persoInfor_disclosure-D3nTG8FO.mjs')
+    component: () => import('./persoInfor_disclosure-D04HOilh.mjs')
   },
   {
     name: "private",
     path: "/private",
-    component: () => import('./private-Bsslzsls.mjs')
+    component: () => import('./private-D0eHQuo4.mjs')
   },
   {
     name: "user-policy",
     path: "/user-policy",
-    component: () => import('./user-policy-Bz91ewUB.mjs')
+    component: () => import('./user-policy-CnEVkweM.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
