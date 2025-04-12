@@ -594,9 +594,34 @@ function handleHotUpdate(_router, _generateRoutes) {
 }
 const _routes = [
   {
+    name: "civizatio_convention",
+    path: "/civizatio_convention",
+    component: () => import('./civizatio_convention-Bb8Tzscs.mjs')
+  },
+  {
     name: "index",
     path: "/",
     component: () => import('./index-BgGv6ukl.mjs')
+  },
+  {
+    name: "information_protection",
+    path: "/information_protection",
+    component: () => import('./information_protection-BTsBOgEj.mjs')
+  },
+  {
+    name: "information_sharing",
+    path: "/information_sharing",
+    component: () => import('./information_sharing-BYuJpwwa.mjs')
+  },
+  {
+    name: "member_ship_agreement",
+    path: "/member_ship_agreement",
+    component: () => import('./member_ship_agreement-Dsu6N4Gd.mjs')
+  },
+  {
+    name: "persoInfor_disclosure",
+    path: "/persoInfor_disclosure",
+    component: () => import('./persoInfor_disclosure-DhoeZnA4.mjs')
   },
   {
     name: "private",
