@@ -5,7 +5,7 @@
       <div class="text">
         Welcome to [{{ data.name_up }}]! This “Short Drama Viewing Service User
         Agreement” (hereinafter referred to as the “Agreement”) is made by
-        [Changsha Guyan Network Technology Co., Ltd.] (hereinafter referred to
+        [Changsha {{ data.name_up }} Network Technology Co., Ltd.] (hereinafter referred to
         as “we” or “platform”) and you (hereinafter referred to as “user”)
         regarding the short drama viewing service provided by [{{
           data.name_up
@@ -187,14 +187,13 @@
 </template>
 <script setup>
 import { ref, onMounted } from 'vue'
-import key from '../utils/utils'
+const name = ref('comon')
 const data = ref({})
-
-onMounted(() => {
-  const obj = key()
-  if (obj.name && obj.data) {
-    data.value = obj.data
-  }
+const mock = await useMock()
+onMounted(async () => {
+  const dataObj =  await dataFetch(mock, window.location.host.split('.')[0])
+  name.value =dataObj.name
+  data.value =dataObj.data
 })
 </script>
 <style lang="scss" scoped>
