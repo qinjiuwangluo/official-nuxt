@@ -1,22 +1,11 @@
 const client_manifest = {
-  "_22TJ_r3L.js": {
+  "_DTZBWchJ.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "22TJ_r3L.js",
+    "file": "DTZBWchJ.js",
     "name": "vue.-sixQ7xP",
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.js"
-    ]
-  },
-  "_DFdCaiM0.js": {
-    "resourceType": "script",
-    "module": true,
-    "prefetch": true,
-    "preload": true,
-    "file": "DFdCaiM0.js",
-    "name": "useMockData",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -28,6 +17,14 @@ const client_manifest = {
     "preload": true,
     "file": "DlAUqK2U.js",
     "name": "_plugin-vue_export-helper"
+  },
+  "_aSxj8Q8R.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "aSxj8Q8R.js",
+    "name": "useMockData"
   },
   "assets/instagram.png": {
     "resourceType": "image",
@@ -41,13 +38,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "QWuvKHP7.js",
+    "file": "Bbfm4Sjl.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DFdCaiM0.js",
-      "_22TJ_r3L.js",
+      "_aSxj8Q8R.js",
+      "_DTZBWchJ.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -56,7 +53,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CvMQVFd4.js",
+    "file": "DC5uNokS.js",
     "name": "index",
     "src": "node_modules/@nuxt/icon/dist/runtime/components/index.js",
     "isDynamicEntry": true,
@@ -69,14 +66,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CFfMPgD4.js",
+    "file": "DjF49-Oc.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
       "_DlAUqK2U.js",
-      "_22TJ_r3L.js"
+      "_DTZBWchJ.js"
     ],
     "css": []
   },
@@ -91,13 +88,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DNz8-mQG.js",
+    "file": "DukO1Brb.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "_DlAUqK2U.js",
-      "_22TJ_r3L.js",
+      "_DTZBWchJ.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -113,7 +110,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "D5wQSKLU.js",
+    "file": "uspLFKSZ.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -129,12 +126,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DCEnJ57p.js",
+    "file": "PYW9cH-J.js",
     "name": "civizatio_convention",
     "src": "pages/civizatio_convention.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DFdCaiM0.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -151,13 +148,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BdconSio.js",
+    "file": "Dsu_u7hS.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_DFdCaiM0.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js"
     ],
     "css": [],
@@ -182,12 +179,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "2CtfYdj8.js",
+    "file": "DjyowrNw.js",
     "name": "information_protection",
     "src": "pages/information_protection.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DFdCaiM0.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -204,12 +201,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DUlVcLBE.js",
+    "file": "Dm-YTLJH.js",
     "name": "information_sharing",
     "src": "pages/information_sharing.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DFdCaiM0.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -226,12 +223,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "ClKXH0k5.js",
+    "file": "D1tFm8Xw.js",
     "name": "member_ship_agreement",
     "src": "pages/member_ship_agreement.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DFdCaiM0.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -248,12 +245,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "D4pJpfIu.js",
+    "file": "C6MQscPG.js",
     "name": "persoInfor_disclosure",
     "src": "pages/persoInfor_disclosure.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DFdCaiM0.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -270,12 +267,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DRPsX08u.js",
+    "file": "Bosts_u3.js",
     "name": "private",
     "src": "pages/private.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DFdCaiM0.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -292,12 +289,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Bj0yRAk5.js",
+    "file": "D2-5b0_9.js",
     "name": "user-policy",
     "src": "pages/user-policy.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DFdCaiM0.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],

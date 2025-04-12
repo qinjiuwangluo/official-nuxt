@@ -1,12 +1,8 @@
-import { ref } from 'vue'
+import mockData from '~/server/data/mock.json'
 
-const cache = ref(null)
 
 export const useMock = async () => {
-  if (!cache.value) {
-    cache.value = await $fetch('/api/mock')
-  }
-  return cache.value
+  return mockData
 }
 
 const deepMerge = (target, source) => {
