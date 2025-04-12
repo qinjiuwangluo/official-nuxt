@@ -25,7 +25,7 @@ export const dataFetch = (allData, key) => {
     name: '',
     data: {}
   }
-  console.log(allData, key)
+  console.log(allData,  window.location.host.split('.')[1])
   key = window.location.host.split('.')[1]
   if (allData[key]) {
     obj = {
