@@ -26,7 +26,7 @@
         direction="ltr"
         :with-header="false"
         :style="{
-          '--el-drawer-padding-primary':0
+          '--el-drawer-padding-primary': 0
         }"
         size="50%"
       >
@@ -76,7 +76,6 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
-import key from '../utils/utils'
 const drawer = ref(false)
 const list = [
   { id: 'home', name: 'Home' },
@@ -87,13 +86,10 @@ const list = [
   { id: 'download', name: 'Download' }
 ]
 const scrollPosition = ref(0)
-
 const name = ref('comon')
-onMounted(() => {
-  const obj = key()
-  if (obj.name && obj.data) {
-    name.value = obj.name
-  }
+const mock = await useMock()
+onMounted(async () => {
+  name.value = await dataFetch(mock, window.location.host.split('.')[0]).name
   window.addEventListener('scroll', updateScrollPosition)
 })
 onUnmounted(() => {

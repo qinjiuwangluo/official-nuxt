@@ -224,14 +224,13 @@
 </template>
 <script setup>
 import {  ref, onMounted } from 'vue'
-import key from '../utils/utils'
+const name = ref('comon')
 const data = ref({})
-
-onMounted(() => {
-  const obj = key()
-  if (obj.name && obj.data) {
-    data.value = obj.data
-  }
+const mock = await useMock()
+onMounted(async () => {
+  const dataObj =  await dataFetch(mock, window.location.host.split('.')[0])
+  name.value =dataObj.name
+  data.value =dataObj.data
 })
 </script>
 <style lang="scss" scoped>

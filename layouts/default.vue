@@ -8,13 +8,18 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-useHead({
-  meta: [
-    {
-      name: 'viewport',
-      content:
-        'width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1'
-    }
-  ]
+const mock = await useMock()
+onMounted(async () => {
+  const dataObj = await dataFetch(mock, window.location.host.split('.')[0])
+  useHead({
+    title: dataObj.data.name_up,
+    meta: [
+      {
+        name: 'viewport',
+        content:
+          'width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1'
+      }
+    ]
+  })
 })
 </script>

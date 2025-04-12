@@ -10,15 +10,13 @@ const about = ref([
   { router: '/private', name: 'Private' },
   { router: '/user-policy', name: 'User Policy' }
 ])
-import key from '../utils/utils'
 const name = ref('comon')
 const data = ref({})
-onMounted(() => {
-  const obj = key()
-  if (obj.name && obj.data) {
-    name.value = obj.name
-    data.value = obj.data
-  }
+const mock = await useMock()
+onMounted(async () => {
+  const dataObj =  await dataFetch(mock, window.location.host.split('.')[0])
+  name.value =dataObj.name
+  data.value =dataObj.data
 })
 const router = useRouter()
 const openPage = (path) => {
