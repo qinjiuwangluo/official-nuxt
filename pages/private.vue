@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full flex justify-center px-32 py-32">
-    <div class="max-w-[840px] bg-fff rounded-8 shadow-2xl p-20">
-      <div class="title">Privacy Policy</div>
+  <div class="w-full flex justify-center md:px-32 md:py-32">
+    <div class="max-w-[840px] bg-fff md:rounded-8 shadow-2xl p-20">
+      <div class="title text-28 md:text-32">Privacy Policy</div>
       <div class="text">
         Welcome to our “{{data.name_up}}” app! We place a high priority on the privacy
         and protection of user's personal information. This privacy policy is
@@ -10,13 +10,13 @@
         our services.
       </div>
 
-      <div class="sub_title">1. Scope</div>
+      <div class="sub_title text-18 md:text-24">1. Scope</div>
       <div class="text">
         This privacy policy applies to the personal information that we collect
         and process when you use our “{{data.name_up}}” app.
       </div>
 
-      <div class="sub_title">2. Data Collection</div>
+      <div class="sub_title text-18 md:text-24">2. Data Collection</div>
       <div class="text">
         We may collect the following categories of information:
       </div>
@@ -31,7 +31,7 @@
         </li>
       </ul>
 
-      <div class="sub_title1">2.1. Accessing Google User Data</div>
+      <div class="sub_title text-18 md:text-241">2.1. Accessing Google User Data</div>
       <div class="text">
         Our application may gain your authorization via the Google API platform
         to access your Google user data. This data may include personal profile
@@ -41,7 +41,7 @@
         application.
       </div>
 
-      <div class="sub_title1">2.2. Utilizing Google User Data</div>
+      <div class="sub_title text-18 md:text-241">2.2. Utilizing Google User Data</div>
       <div class="text">
         We use your Google user data to provide and enhance our services. This
         includes but is not limited to displaying personalized content to you,
@@ -50,7 +50,7 @@
         you and comply with applicable privacy policies and regulations.
       </div>
 
-      <div class="sub_title1">2.3. Storing Google User Data</div>
+      <div class="sub_title text-18 md:text-241">2.3. Storing Google User Data</div>
       <div class="text">
         We may store your Google user data on secure servers to provide you with
         the necessary services and features. We take appropriate security
@@ -60,7 +60,7 @@
         your data.
       </div>
 
-      <div class="sub_title">3. Use of Information</div>
+      <div class="sub_title text-18 md:text-24">3. Use of Information</div>
       <div class="text">
         The information we collect is primarily used for the following purposes:
       </div>
@@ -79,7 +79,7 @@
         </li>
       </ul>
 
-      <div class="sub_title">4. Information Sharing and Transfer</div>
+      <div class="sub_title text-18 md:text-24">4. Information Sharing and Transfer</div>
       <div class="text">
         We will not transfer your personal information to any third party,
         unless:
@@ -98,14 +98,14 @@
         </li>
       </ul>
 
-      <div class="sub_title">5. Information Security</div>
+      <div class="sub_title text-18 md:text-24">5. Information Security</div>
       <div class="text">
         We take various reasonable physical, electronic, and management security
         measures to protect your personal information from unauthorized access,
         public disclosure, use, modification, damage, or loss.
       </div>
 
-      <div class="sub_title">6. Your Rights</div>
+      <div class="sub_title text-18 md:text-24">6. Your Rights</div>
       <div class="text">
         You have the following rights to your personal information:
       </div>
@@ -131,7 +131,7 @@
         </li>
       </ul>
 
-      <div class="sub_title">7. Privacy Policy Update</div>
+      <div class="sub_title text-18 md:text-24">7. Privacy Policy Update</div>
       <div class="text">
         We may update this privacy policy from time to time. The updated privacy
         policy will be published in the application or notified to you through
@@ -139,7 +139,7 @@
         latest content of the privacy policy.
       </div>
 
-      <div class="sub_title">8. International User Notice</div>
+      <div class="sub_title text-18 md:text-24">8. International User Notice</div>
       <div class="text">
         For non-domestic users, your information may be transmitted to and
         stored in the location of our servers. We will take measures to ensure
@@ -148,7 +148,7 @@
         measures to maintain the security of your personal information.
       </div>
 
-      <div class="sub_title">9. Child Privacy Protection</div>
+      <div class="sub_title text-18 md:text-24">9. Child Privacy Protection</div>
       <div class="text">
         We attach great importance to the protection of children’s personal
         information. This application does not provide services to users under
@@ -159,7 +159,7 @@
         by law.
       </div>
 
-      <div class="sub_title">10. Non-Discrimination Policy</div>
+      <div class="sub_title text-18 md:text-24">10. Non-Discrimination Policy</div>
       <div class="text">
         We promise that we will not discriminate against you when processing
         your personal information requests and exercising your rights, including
@@ -167,7 +167,7 @@
         quality of services, etc.
       </div>
 
-      <div class="sub_title">
+      <div class="sub_title text-18 md:text-24">
         11. Automatic Renewal Subscription Description
       </div>
       <div class="text">
@@ -186,7 +186,7 @@
         hours before expiration, you will still be charged the subscription fee.
       </div>
 
-      <div class="sub_title">12. Disclaimer</div>
+      <div class="sub_title text-18 md:text-24">12. Disclaimer</div>
       <div class="text">
         Although we have taken reasonable measures to protect your information,
         please understand that no security measures are absolutely safe.
@@ -196,7 +196,7 @@
         to laws and regulations and the provisions of this policy.
       </div>
 
-      <div class="sub_title">13. Contact Us</div>
+      <div class="sub_title text-18 md:text-24">13. Contact Us</div>
       <div class="text">
         If you have any questions, comments, or suggestions about this privacy
         policy, please send an email to the following email address:
@@ -209,7 +209,7 @@
         application!
       </div>
 
-      <div class="sub_title">Conclusion</div>
+      <div class="sub_title text-18 md:text-24">Conclusion</div>
       <div class="text">
         We encourage you to review this privacy policy regularly to understand
         how we protect your information. Using our “{{data.name_up}}” app means you
@@ -241,11 +241,10 @@ onMounted(async () => {
   font-weight: 600;
   margin: 22px 0;
 }
-.sub_title {
+.sub_title  {
   color: #333;
   line-height: 1.2;
   font-weight: 600;
-  font-size: 24px;
   margin: 20px 0;
 }
 .sub_title_1 {
@@ -256,7 +255,7 @@ onMounted(async () => {
   margin: 18px 0;
 }
 .text {
-  color: #666;
+  color: #444;
   line-height: 1.6;
   margin: 16px 0;
   font-family: 'Arial, sans-serif';
@@ -264,7 +263,7 @@ onMounted(async () => {
 li {
   color: #666;
   line-height: 1.6;
-  margin: 10px 0 10px 40px;
+  margin: 10px 0 10px 20px;
   list-style-type: disc;
 }
 strong {

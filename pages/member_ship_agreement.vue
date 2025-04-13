@@ -4,7 +4,7 @@
       <div class="text-center text-28 mb-30 font-600 px-40 mt-20">
         VIP Membership Service Agreement
       </div>
-      <div class="bg-fff rounded-8 shadow-2xl p-20 mt-20">
+      <div class="bg-fff rounded-2 md:rounded-8 shadow-2xl p-20 mt-20">
         <div class="sub_title_1" style="text-align: center">
           1. Acceptance and Modification of Service Terms
         </div>
@@ -62,7 +62,7 @@
           when enjoying this service.
         </div>
       </div>
-      <div class="bg-fff rounded-8 shadow-2xl p-20 mt-20">
+      <div class="bg-fff rounded-2 md:rounded-8 shadow-2xl p-20 mt-20">
         <div class="sub_title_1" style="text-align: center">
           2. Service Description
         </div>
@@ -115,7 +115,7 @@
           behaviors of any third party.
         </div>
       </div>
-      <div class="bg-fff rounded-8 shadow-2xl p-20 mt-20">
+      <div class="bg-fff rounded-2 md:rounded-8 shadow-2xl p-20 mt-20">
         <div class="sub_title_1" style="text-align: center">
           3. Procedure to Become a VIP Member
         </div>
@@ -170,7 +170,7 @@
           members themselves.
         </div>
       </div>
-      <div class="bg-fff rounded-8 shadow-2xl p-20 mt-20">
+      <div class="bg-fff rounded-2 md:rounded-8 shadow-2xl p-20 mt-20">
         <div class="sub_title_1" style="text-align: center">
           4. VIP Member Tariff
         </div>
@@ -205,7 +205,7 @@
           from the expiration or termination date.
         </div>
       </div>
-      <div class="bg-fff rounded-8 shadow-2xl p-20 mt-20">
+      <div class="bg-fff rounded-2 md:rounded-8 shadow-2xl p-20 mt-20">
         <div class="sub_title_1" style="text-align: center">
           5. Use of VIP Membership Service
         </div>
@@ -261,7 +261,7 @@
           </li>
         </ul>
       </div>
-      <div class="bg-fff rounded-8 shadow-2xl p-20 mt-20">
+      <div class="bg-fff rounded-2 md:rounded-8 shadow-2xl p-20 mt-20">
         <div class="sub_title_1" style="text-align: center">
           6. Termination of Service
         </div>
@@ -296,7 +296,7 @@
           should survive shall continue to be effective.
         </div>
       </div>
-      <div class="bg-fff rounded-8 shadow-2xl p-20 mt-20">
+      <div class="bg-fff rounded-2 md:rounded-8 shadow-2xl p-20 mt-20">
         <div class="sub_title_1" style="text-align: center">7. Disclaimer</div>
         <div class="text">
           <strong>7.1</strong> This platform does not guarantee that this
@@ -316,7 +316,7 @@
           other network, technology, communication line reasons, etc.
         </div>
       </div>
-      <div class="bg-fff rounded-8 shadow-2xl p-20 mt-20">
+      <div class="bg-fff rounded-2 md:rounded-8 shadow-2xl p-20 mt-20">
         <div class="sub_title_1" style="text-align: center">
           8. Dispute Resolution
         </div>
@@ -331,7 +331,7 @@
           with jurisdiction in the place where this platform is located.
         </div>
       </div>
-      <div class="bg-fff rounded-8 shadow-2xl p-20 mt-20">
+      <div class="bg-fff rounded-2 md:rounded-8 shadow-2xl p-20 mt-20">
         <div class="sub_title_1" style="text-align: center">
           9.About Subscription:
         </div>
@@ -347,7 +347,7 @@
           subscribe, you can cancel the subscription through the Google Play
           account management interface before the end of the current
           subscription period. If you have any questions, please contact our
-          email guyanchuangju@163.com.
+          email  <a :href="data.emailHref">{{data.email}}</a>.
         </div>
         <div class="text">
           <strong>9.3</strong> Payment: Payment will be deducted from your
@@ -362,14 +362,14 @@
           still be charged.
         </div>
       </div>
-      <div class="bg-fff rounded-8 shadow-2xl p-20 mt-20">
+      <div class="bg-fff rounded-2 md:rounded-8 shadow-2xl p-20 mt-20">
         <div class="sub_title_1" style="text-align: center">10. Contact Us</div>
         <div class="text">
           If you have any questions, comments, or suggestions about this
           agreement, please contact us through the following methods:
         </div>
-        <div class="text" style="margin-left: 20px">
-          Customer Service Email: guyanchuangju@163.com
+        <div class="text" style="text-align: center;">
+          Customer Service Email <a :href="data.emailHref">{{data.email}}</a>.
         </div>
       </div>
     </div>
@@ -409,7 +409,7 @@ onMounted(async () => {
   margin: 18px 0;
 }
 .text {
-  color: #333;
+  color: #444;
   line-height: 1.6;
   margin: 16px 0;
   font-family: 'Arial, sans-serif';

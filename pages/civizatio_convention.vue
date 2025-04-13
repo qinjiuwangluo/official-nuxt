@@ -1,8 +1,8 @@
 <template>
-  <div class="w-full flex justify-center px-32 py-32">
-    <div class="max-w-[840px] bg-fff rounded-8 shadow-2xl p-20">
-      <div class="title" style="text-align: center">User Agreement</div>
-      <div class="text">
+  <div class="w-full flex justify-center md:px-32 md:py-32">
+    <div class="max-w-[840px] bg-fff md:rounded-8 shadow-2xl p-20">
+      <div class="title text-28 md:text-32" style="text-align: center">User Agreement</div>
+      <div class="text ">
         Welcome to [{{ data.name_up }}]! This “Short Drama Viewing Service User
         Agreement” (hereinafter referred to as the “Agreement”) is made by
         [Changsha {{ data.name_up }} Network Technology Co., Ltd.] (hereinafter referred to
@@ -15,7 +15,7 @@
         constraints of all terms of this Agreement.
       </div>
 
-      <div class="sub_title">1. Service Content</div>
+      <div class="sub_title text-18 md:text-24">1. Service Content</div>
       <div class="text">
         We provide users with online viewing, sharing, and other services of
         overseas short dramas. The specific content, form, and operation rules
@@ -23,14 +23,14 @@
         to actual conditions.
       </div>
 
-      <div class="sub_title">2. User Qualifications</div>
+      <div class="sub_title text-18 md:text-24">2. User Qualifications</div>
       <div class="text">
         You must be at least 18 years old, have full civil capacity, and agree
         to abide by the laws and regulations of your country and region and this
         Agreement, in order to register as a user of our platform.
       </div>
 
-      <div class="sub_title">3. Service Use Specifications</div>
+      <div class="sub_title text-18 md:text-24">3. Service Use Specifications</div>
       <div class="text">
         If you need to carry out commercial sales, copying, distribution,
         including but not limited to software sales, pre-installation, bundling,
@@ -56,7 +56,7 @@
         rights of this platform.
       </div>
 
-      <div class="sub_title">4. Intellectual Property Rights</div>
+      <div class="sub_title text-18 md:text-24">4. Intellectual Property Rights</div>
       <div class="text">
         Although we have taken reasonable measures to protect your information,
         please understand that no security measures are absolutely safe.
@@ -66,7 +66,7 @@
         to laws and regulations and the provisions of this policy.
       </div>
 
-      <div class="sub_title">5. Privacy Protection</div>
+      <div class="sub_title text-18 md:text-24">5. Privacy Protection</div>
       <div class="text">
         We promise to protect the security of users’ personal information, for
         details, please refer to our “Privacy Policy”. Use of this service means
@@ -74,7 +74,7 @@
         personal information in accordance with the “Privacy Policy”.
       </div>
 
-      <div class="sub_title">6. Limitation of Liability</div>
+      <div class="sub_title text-18 md:text-24">6. Limitation of Liability</div>
       <div class="text">
         We strive to provide stable, high-quality services, but due to the
         special nature of the Internet, we cannot guarantee the absolute
@@ -87,14 +87,14 @@
         responsibility.
       </div>
 
-      <div class="sub_title">7. Service Changes and Termination</div>
+      <div class="sub_title text-18 md:text-24">7. Service Changes and Termination</div>
       <div class="text">
         We reserve the right to modify, suspend, or terminate the service (all
         or part) at any time without prior notice, and we do not assume
         responsibility for any loss or inconvenience caused by this.
       </div>
 
-      <div class="sub_title">8. Others</div>
+      <div class="sub_title text-18 md:text-24">8. Others</div>
       <div class="text">
         This Agreement constitutes a complete agreement between the two parties
         regarding the use of the service, replacing all previous oral or written
@@ -105,7 +105,7 @@
         does not affect the effectiveness of other terms.
       </div>
 
-      <div class="sub_title">9. Disclaimer</div>
+      <div class="sub_title text-18 md:text-24">9. Disclaimer</div>
       <div class="text">
         For service interruptions or data loss caused by force majeure factors
         (such as natural disasters, government actions, social abnormal events,
@@ -115,7 +115,7 @@
         important personal data to prevent accidents.
       </div>
 
-      <div class="sub_title">10. User Feedback and Evaluation</div>
+      <div class="sub_title text-18 md:text-24">10. User Feedback and Evaluation</div>
       <div class="text">
         We encourage users to provide feedback and evaluations on the content
         and quality of the platform. Legal and constructive opinions are
@@ -125,7 +125,7 @@
         malicious attacks.
       </div>
 
-      <div class="sub_title">11. Protection of Minors</div>
+      <div class="sub_title text-18 md:text-24">11. Protection of Minors</div>
       <div class="text">
         We attach great importance to the network protection of minors. If the
         user is under 18 years old, they should use our platform services with
@@ -135,7 +135,7 @@
         Agreement and relevant laws and regulations.
       </div>
 
-      <div class="sub_title">12. Revision and Notification</div>
+      <div class="sub_title text-18 md:text-24">12. Revision and Notification</div>
       <div class="text">
         We reserve the right to modify this Agreement at any time. Any changes
         to the Agreement will be announced on the platform and will no longer
@@ -144,7 +144,7 @@
         accept changes to the Agreement.
       </div>
 
-      <div class="sub_title">13. Data Protection and Privacy Enhancement</div>
+      <div class="sub_title text-18 md:text-24">13. Data Protection and Privacy Enhancement</div>
       <div class="text">
         We deeply understand the importance of personal information, so we adopt
         industry-standard security measures to protect user data from
@@ -156,7 +156,7 @@
         and protected.
       </div>
 
-      <div class="sub_title">14. Copyright Infringement Handling Mechanism</div>
+      <div class="sub_title text-18 md:text-24">14. Copyright Infringement Handling Mechanism</div>
       <div class="text">
         We have established a strict copyright infringement complaint and
         handling mechanism to ensure the legality of the platform content. Once
@@ -169,7 +169,7 @@
         jointly maintain the dignity of intellectual property rights.
       </div>
 
-      <div class="sub_title">
+      <div class="sub_title text-18 md:text-24">
         15. International Service and Cultural Diversity
       </div>
       <div class="text">
@@ -200,26 +200,17 @@ onMounted(async () => {
 .title {
   color: #333;
   line-height: 1.2;
-  font-size: 32px;
   font-weight: 600;
   margin: 22px 0;
 }
-.sub_title {
+.sub_title  {
   color: #333;
   line-height: 1.2;
   font-weight: 600;
-  font-size: 24px;
   margin: 20px 0;
 }
-.sub_title_1 {
-  color: #333;
-  line-height: 1.2;
-  font-weight: 600;
-  font-size: 18px;
-  margin: 18px 0;
-}
 .text {
-  color: #666;
+  color: #444;
   line-height: 1.6;
   margin: 16px 0;
   font-family: 'Arial, sans-serif';
@@ -227,7 +218,7 @@ onMounted(async () => {
 li {
   color: #666;
   line-height: 1.6;
-  margin: 10px 0 10px 40px;
+  margin: 10px 0 10px 20px;
   list-style-type: disc;
 }
 strong {
