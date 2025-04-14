@@ -596,22 +596,22 @@ const _routes = [
   {
     name: "civizatio_convention",
     path: "/civizatio_convention",
-    component: () => import('./civizatio_convention-BWqP3lpt.mjs')
+    component: () => import('./civizatio_convention-Cpmd8U9p.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-BUzuUVrt.mjs')
+    component: () => import('./index-BnsPW_FQ.mjs')
   },
   {
     name: "information_protection",
     path: "/information_protection",
-    component: () => import('./information_protection-DqVt0vnQ.mjs')
+    component: () => import('./information_protection-Dtjf0nUi.mjs')
   },
   {
     name: "information_sharing",
     path: "/information_sharing",
-    component: () => import('./information_sharing-B7gl2ecY.mjs')
+    component: () => import('./information_sharing-DaL0abiy.mjs')
   },
   {
     name: "logout",
@@ -621,22 +621,22 @@ const _routes = [
   {
     name: "member_ship_agreement",
     path: "/member_ship_agreement",
-    component: () => import('./member_ship_agreement-cyP65TN3.mjs')
+    component: () => import('./member_ship_agreement-DntpX1Kl.mjs')
   },
   {
     name: "persoInfor_disclosure",
     path: "/persoInfor_disclosure",
-    component: () => import('./persoInfor_disclosure-DnQOAYJG.mjs')
+    component: () => import('./persoInfor_disclosure-BtETW7_J.mjs')
   },
   {
     name: "private",
     path: "/private",
-    component: () => import('./private-Dfeoq5Bk.mjs')
+    component: () => import('./private-DoD7R-fa.mjs')
   },
   {
     name: "user_policy",
     path: "/user_policy",
-    component: () => import('./user_policy-_XplzpZq.mjs')
+    component: () => import('./user_policy-EzxQaBCv.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -2693,7 +2693,7 @@ const plugins = [
   i18n_VfGcjrvSkj
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import('./default-DbLZhwrG.mjs').then((m) => m.default || m))
+  default: defineAsyncComponent(() => import('./default-DM930dlL.mjs').then((m) => m.default || m))
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",
