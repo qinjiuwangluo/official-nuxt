@@ -14,9 +14,9 @@ const name = ref('comon')
 const data = ref({})
 const mock = await useMock()
 onMounted(async () => {
-  const dataObj = await dataFetch(mock, window.location.host.split('.')[1])
-  name.value = dataObj.name
-  data.value = dataObj.data
+  const dataObj =  await dataFetch(mock, window.location.host.split('.')[1])
+  name.value =dataObj.name
+  data.value =dataObj.data
 })
 const router = useRouter()
 const openPage = (path) => {
@@ -117,7 +117,7 @@ const openApp = (type) => {
       fill=""
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1000 300"
-      preserveAspectRatio="xMidYMid slice"
+     preserveAspectRatio="xMidYMid slice"
     >
       <path
         d="M 1000 299 l 2 -279 c -155 -36 -310 135 -415 164 c -102.64 28.35 -149 -32 -232 -31 c -80 1 -142 53 -229 80 c -65.54 20.34 -101 15 -126 11.61 v 54.39 z"
@@ -238,8 +238,7 @@ const openApp = (type) => {
         :loop="true"
         :autoplay="{
           delay: 3000,
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true
+          disableOnInteraction: false
         }"
         effect="coverflow"
         :coverflowEffect="{
@@ -265,8 +264,7 @@ const openApp = (type) => {
         :loop="true"
         :autoplay="{
           delay: 3000,
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true
+          disableOnInteraction: false
         }"
         :pagination="{ clickable: true }"
         :modules="[Autoplay, Pagination]"
@@ -287,8 +285,7 @@ const openApp = (type) => {
         :loop="true"
         :autoplay="{
           delay: 3000,
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true
+          disableOnInteraction: false
         }"
         :pagination="{ clickable: true }"
         :modules="[Autoplay, Pagination]"

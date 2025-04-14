@@ -32,12 +32,12 @@
   "vetrashort": {
     "name": "VetraShort",
     "name_up": "VETRASHORT",
-    "email": "vetra@vetrashort.com",
-    "emailHref": "mailto:vetra@vetrashort.com",
-    "iosLink": "",
-    "iosScheme": "",
-    "androidLink": "",
-    "androidScheme": ""
+    "email": "guyanchuangju@163.com",
+    "emailHref": "mailto:guyanchuangju@163.com",
+    "iosLink": "https://apps.apple.com/app/id6504334752",
+    "iosScheme": "guyantvappsflyer://",
+    "androidLink": "https://play.google.com/store/apps/details?id=com.gytv.app",
+    "androidScheme": "gytvapp://www.guyantv.com"
   },
   "mireotv": {
     "name": "Mireo TV",
