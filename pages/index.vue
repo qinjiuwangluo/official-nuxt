@@ -113,7 +113,7 @@ const openApp = (type) => {
       </div>
     </div>
     <svg
-      class="absolute left-0 bottom-[-1px] fill-white wave z-20"
+      class="absolute left-0 right-0 bottom-[-1px] fill-white wave z-20"
       fill=""
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1000 300"

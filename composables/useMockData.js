@@ -27,6 +27,7 @@ export const dataFetch = (allData, key) => {
   }
   console.log(allData,  key)
   // key = window.location.host.split('.')[1]
+  key="mireotv"
   if (allData[key]) {
     obj = {
       name: key,
