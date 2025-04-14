@@ -1,22 +1,14 @@
 const client_manifest = {
-  "_BnA8xTX2.js": {
+  "_CZZF8Q0E.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BnA8xTX2.js",
+    "file": "CZZF8Q0E.js",
     "name": "vue.-sixQ7xP",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
-  },
-  "_DI4-GZae.js": {
-    "resourceType": "script",
-    "module": true,
-    "prefetch": true,
-    "preload": true,
-    "file": "DI4-GZae.js",
-    "name": "useMockData"
   },
   "_DlAUqK2U.js": {
     "resourceType": "script",
@@ -25,6 +17,14 @@ const client_manifest = {
     "preload": true,
     "file": "DlAUqK2U.js",
     "name": "_plugin-vue_export-helper"
+  },
+  "_aSxj8Q8R.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "aSxj8Q8R.js",
+    "name": "useMockData"
   },
   "assets/instagram.png": {
     "resourceType": "image",
@@ -38,13 +38,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "d9M7QVME.js",
+    "file": "DWIWeeBh.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DI4-GZae.js",
-      "_BnA8xTX2.js",
+      "_aSxj8Q8R.js",
+      "_CZZF8Q0E.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -53,7 +53,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BDUZdCsz.js",
+    "file": "CdfSaMgL.js",
     "name": "index",
     "src": "node_modules/@nuxt/icon/dist/runtime/components/index.js",
     "isDynamicEntry": true,
@@ -66,14 +66,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Baulcu0X.js",
+    "file": "Du6M8TVN.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
       "_DlAUqK2U.js",
-      "_BnA8xTX2.js"
+      "_CZZF8Q0E.js"
     ],
     "css": []
   },
@@ -88,13 +88,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Cjg78oB1.js",
+    "file": "mfyankYl.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "_DlAUqK2U.js",
-      "_BnA8xTX2.js",
+      "_CZZF8Q0E.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -110,7 +110,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "ByIo7vMJ.js",
+    "file": "ggBMzPpC.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -126,12 +126,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CoNEILR_.js",
+    "file": "DLv3X65R.js",
     "name": "civizatio_convention",
     "src": "pages/civizatio_convention.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DI4-GZae.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -148,13 +148,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B63nlU0C.js",
+    "file": "CltJA7MQ.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_DI4-GZae.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js"
     ],
     "css": [],
@@ -179,12 +179,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DkVLpGMo.js",
+    "file": "Bgq_9xBL.js",
     "name": "information_protection",
     "src": "pages/information_protection.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DI4-GZae.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -201,12 +201,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DrPXnBt4.js",
+    "file": "CGcc_Meb.js",
     "name": "information_sharing",
     "src": "pages/information_sharing.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DI4-GZae.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -223,12 +223,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BPtmLi1h.js",
+    "file": "VS5cOA-n.js",
     "name": "member_ship_agreement",
     "src": "pages/member_ship_agreement.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DI4-GZae.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -245,12 +245,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DrZCyZ59.js",
+    "file": "DjBoErfe.js",
     "name": "persoInfor_disclosure",
     "src": "pages/persoInfor_disclosure.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DI4-GZae.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -267,12 +267,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BuUejLRg.js",
+    "file": "DoUNqwvA.js",
     "name": "private",
     "src": "pages/private.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DI4-GZae.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -289,12 +289,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Ct4W2G3E.js",
+    "file": "CE5w4-GX.js",
     "name": "user_policy",
     "src": "pages/user_policy.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DI4-GZae.js",
+      "_aSxj8Q8R.js",
       "_DlAUqK2U.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
