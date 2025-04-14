@@ -58,7 +58,7 @@ const openApp = (type) => {
   <AppHeader />
   <div
     id="home"
-    class="w-full py-120 relative text-14 px-16 md:px-0 overflow-hidden"
+    class="w-full pt-120 pb-120 xl:pb-260 relative text-14 px-16 md:px-0 overflow-hidden"
     :style="`background-image: url('/${name}/home_bg.png'); background-size: cover;`"
   >
     <div class="w-full h-full absolute left-0 top-0 opacity-60 z-1" />
@@ -113,11 +113,11 @@ const openApp = (type) => {
       </div>
     </div>
     <svg
-      class="absolute left-0 right-0 bottom-[-1px] fill-white wave z-20"
+      class="absolute left-0 bottom-[-1px] fill-white wave z-20"
       fill=""
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1000 300"
-      preserveAspectRatio="none"
+     preserveAspectRatio="xMidYMid slice"
     >
       <path
         d="M 1000 299 l 2 -279 c -155 -36 -310 135 -415 164 c -102.64 28.35 -149 -32 -232 -31 c -80 1 -142 53 -229 80 c -65.54 20.34 -101 15 -126 11.61 v 54.39 z"

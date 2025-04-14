@@ -26,7 +26,7 @@ export const dataFetch = (allData, key) => {
     data: {}
   }
   console.log(allData,  key)
-  // key = window.location.host.split('.')[1]
+  // key = 'moviatv'
   if (allData[key]) {
     obj = {
       name: key,
