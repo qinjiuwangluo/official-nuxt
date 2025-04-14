@@ -1381,7 +1381,7 @@ const _sfc_main = {
     let __temp, __restore;
     const about = ref([
       { router: "/private", name: "Private" },
-      { router: "/user-policy", name: "User Policy" }
+      { router: "/user_policy", name: "User Policy" }
     ]);
     const name = ref("comon");
     const data = ref({});
@@ -1580,4 +1580,4 @@ _sfc_main.setup = (props, ctx) => {
 };
 
 export { _sfc_main as default };
-//# sourceMappingURL=index-Du9B0iI2.mjs.map
+//# sourceMappingURL=index-Cd1fgTJL.mjs.map

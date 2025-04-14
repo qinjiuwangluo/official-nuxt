@@ -8,7 +8,7 @@ import 'swiper/css/autoplay'
 import { ref, onMounted } from 'vue'
 const about = ref([
   { router: '/private', name: 'Private' },
-  { router: '/user-policy', name: 'User Policy' }
+  { router: '/user_policy', name: 'User Policy' }
 ])
 const name = ref('comon')
 const data = ref({})
