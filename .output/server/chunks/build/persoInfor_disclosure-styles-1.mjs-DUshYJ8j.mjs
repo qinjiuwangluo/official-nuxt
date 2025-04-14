@@ -1,4 +1,0 @@
-const persoInfor_disclosure_vue_vue_type_style_index_0_scoped_43807726_lang = '.title[data-v-43807726]{font-size:2rem;margin:1.375rem 0}.sub_title[data-v-43807726],.title[data-v-43807726]{color:#333;font-weight:600;line-height:1.2}.sub_title[data-v-43807726]{font-size:1.5rem;margin:1.25rem 0}.sub_title_1[data-v-43807726]{color:#333;font-size:1.125rem;font-weight:600;line-height:1.2;margin:1.125rem 0}.text[data-v-43807726]{font-family:"Arial, sans-serif";margin:1rem 0}.text[data-v-43807726],li[data-v-43807726]{color:#666;line-height:1.6}li[data-v-43807726]{list-style-type:disc;margin:.625rem 0 .625rem 2.5rem}strong[data-v-43807726]{padding-right:.625rem}a[data-v-43807726]{color:#00f;text-decoration:underline}';
-
-export { persoInfor_disclosure_vue_vue_type_style_index_0_scoped_43807726_lang as p };
-//# sourceMappingURL=persoInfor_disclosure-styles-1.mjs-DUshYJ8j.mjs.map
