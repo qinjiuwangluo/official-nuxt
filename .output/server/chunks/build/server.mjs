@@ -596,42 +596,42 @@ const _routes = [
   {
     name: "civizatio_convention",
     path: "/civizatio_convention",
-    component: () => import('./civizatio_convention-CltWy4my.mjs')
+    component: () => import('./civizatio_convention-Q96NmEmU.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-C0WwU5IB.mjs')
+    component: () => import('./index-oYWfavVz.mjs')
   },
   {
     name: "information_protection",
     path: "/information_protection",
-    component: () => import('./information_protection-BCxZQ4sV.mjs')
+    component: () => import('./information_protection-DFe4vCLW.mjs')
   },
   {
     name: "information_sharing",
     path: "/information_sharing",
-    component: () => import('./information_sharing-CDtHcY6m.mjs')
+    component: () => import('./information_sharing-Cv-lqp1S.mjs')
   },
   {
     name: "member_ship_agreement",
     path: "/member_ship_agreement",
-    component: () => import('./member_ship_agreement-DXg-nu78.mjs')
+    component: () => import('./member_ship_agreement-QwmAVfTX.mjs')
   },
   {
     name: "persoInfor_disclosure",
     path: "/persoInfor_disclosure",
-    component: () => import('./persoInfor_disclosure-ByR5xp9s.mjs')
+    component: () => import('./persoInfor_disclosure-COIdJFVf.mjs')
   },
   {
     name: "private",
     path: "/private",
-    component: () => import('./private-CIRs8B0j.mjs')
+    component: () => import('./private-CxKNC8xd.mjs')
   },
   {
     name: "user_policy",
     path: "/user_policy",
-    component: () => import('./user_policy-DrkNdIBU.mjs')
+    component: () => import('./user_policy-BLbpt7xc.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -2688,7 +2688,7 @@ const plugins = [
   i18n_VfGcjrvSkj
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import('./default-B374E8zP.mjs').then((m) => m.default || m))
+  default: defineAsyncComponent(() => import('./default-RtYVk7JQ.mjs').then((m) => m.default || m))
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",
