@@ -368,7 +368,7 @@ const openApp = (type) => {
             {{ item.name }}
           </div>
           <div class="ml-16 underline cursor-pointer">
-            <a class="" href="mailto:guyanchuangju@163.com">Contact us</a>
+            <a class="" :href="data.emailHref">Contact us</a>
           </div>
         </div>
       </div>

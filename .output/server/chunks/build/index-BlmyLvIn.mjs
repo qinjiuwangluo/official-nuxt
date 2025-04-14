@@ -1569,7 +1569,7 @@ const _sfc_main = {
       ssrRenderList(about.value, (item, index) => {
         _push(`<div class="ml-16 underline cursor-pointer">${ssrInterpolate(item.name)}</div>`);
       });
-      _push(`<!--]--><div class="ml-16 underline cursor-pointer"><a class="" href="mailto:guyanchuangju@163.com">Contact us</a></div></div></div></div></div><!--]-->`);
+      _push(`<!--]--><div class="ml-16 underline cursor-pointer"><a class=""${ssrRenderAttr("href", data.value.emailHref)}>Contact us</a></div></div></div></div></div><!--]-->`);
     };
   }
 };
@@ -1581,4 +1581,4 @@ _sfc_main.setup = (props, ctx) => {
 };
 
 export { _sfc_main as default };
-//# sourceMappingURL=index-y1DjVxZl.mjs.map
+//# sourceMappingURL=index-BlmyLvIn.mjs.map
