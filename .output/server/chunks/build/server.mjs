@@ -596,22 +596,27 @@ const _routes = [
   {
     name: "civizatio_convention",
     path: "/civizatio_convention",
-    component: () => import('./civizatio_convention-BCb3kId5.mjs')
+    component: () => import('./civizatio_convention-BWqP3lpt.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-BlmyLvIn.mjs')
+    component: () => import('./index-BUzuUVrt.mjs')
   },
   {
     name: "information_protection",
     path: "/information_protection",
-    component: () => import('./information_protection-Cr6-BpGr.mjs')
+    component: () => import('./information_protection-DqVt0vnQ.mjs')
   },
   {
     name: "information_sharing",
     path: "/information_sharing",
     component: () => import('./information_sharing-B7gl2ecY.mjs')
+  },
+  {
+    name: "logout",
+    path: "/logout",
+    component: () => import('./logout-CVDMVYRF.mjs')
   },
   {
     name: "member_ship_agreement",
@@ -631,7 +636,7 @@ const _routes = [
   {
     name: "user_policy",
     path: "/user_policy",
-    component: () => import('./user_policy-D5dCVq1J.mjs')
+    component: () => import('./user_policy-_XplzpZq.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -1245,7 +1250,7 @@ const plugin = /* @__PURE__ */ defineNuxtPlugin({
     };
   }
 });
-const LazyIcon = defineAsyncComponent(() => import('./index-CCVDparf.mjs').then((r) => r["default"] || r.default || r));
+const LazyIcon = defineAsyncComponent(() => import('./index-Nzs0JdwT.mjs').then((r) => r["default"] || r.default || r));
 const lazyGlobalComponents = [
   ["Icon", LazyIcon]
 ];
@@ -1470,14 +1475,14 @@ const _bem = (namespace, block, blockSuffix, element, modifier) => {
 };
 const namespaceContextKey = Symbol("namespaceContextKey");
 const useGetDerivedNamespace = (namespaceOverrides) => {
-  const derivedNamespace = getCurrentInstance() ? inject(namespaceContextKey, ref(defaultNamespace)) : ref(defaultNamespace);
+  const derivedNamespace = namespaceOverrides || (getCurrentInstance() ? inject(namespaceContextKey, ref(defaultNamespace)) : ref(defaultNamespace));
   const namespace = computed(() => {
     return unref(derivedNamespace) || defaultNamespace;
   });
   return namespace;
 };
 const useNamespace = (block, namespaceOverrides) => {
-  const namespace = useGetDerivedNamespace();
+  const namespace = useGetDerivedNamespace(namespaceOverrides);
   const b = (blockSuffix = "") => _bem(namespace.value, block, blockSuffix, "", "");
   const e = (element) => element ? _bem(namespace.value, block, "", element, "") : "";
   const m = (modifier) => modifier ? _bem(namespace.value, block, "", "", modifier) : "";
@@ -1573,7 +1578,7 @@ const ZINDEX_INJECTION_KEY = Symbol("elZIndexContextKey");
 const zIndexContextKey = Symbol("zIndexContextKey");
 const useZIndex = (zIndexOverrides) => {
   const increasingInjection = getCurrentInstance() ? inject(ZINDEX_INJECTION_KEY, initial) : initial;
-  const zIndexInjection = getCurrentInstance() ? inject(zIndexContextKey, undefined) : undefined;
+  const zIndexInjection = zIndexOverrides || (getCurrentInstance() ? inject(zIndexContextKey, undefined) : undefined);
   const initialZIndex = computed(() => {
     const zIndexFromInjection = unref(zIndexInjection);
     return isNumber(zIndexFromInjection) ? zIndexFromInjection : defaultInitialZIndex;
@@ -2983,8 +2988,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = undefined;
-    const _Error404 = defineAsyncComponent(() => import('./error-404-DDTbhc-x.mjs'));
-    const _Error = defineAsyncComponent(() => import('./error-500-BiGLluT4.mjs'));
+    const _Error404 = defineAsyncComponent(() => import('./error-404-BUjuANd_.mjs'));
+    const _Error = defineAsyncComponent(() => import('./error-500-C862S5IG.mjs'));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));
@@ -3065,5 +3070,5 @@ let entry;
 }
 const entry$1 = (ssrContext) => entry(ssrContext);
 
-export { navigateTo as a, useNuxtApp as b, useRuntimeConfig as c, useNamespace as d, entry$1 as default, isNumber as e, isStringNumber as f, debugWarn as g, isUndefined as h, isElement as i, isBoolean as j, useZIndex as k, useId as l, defaultNamespace as m, nuxtLinkDefaults as n, asyncDataDefaults as o, createError as p, useAppConfig as q, resolveRouteObject as r, injectHead as s, throwError as t, useRouter as u, resolveUnrefHeadInput as v };
+export { navigateTo as a, useNuxtApp as b, useRuntimeConfig as c, useNamespace as d, entry$1 as default, isBoolean as e, useZIndex as f, useId as g, defaultNamespace as h, isElement as i, isNumber as j, debugWarn as k, isStringNumber as l, isUndefined as m, nuxtLinkDefaults as n, namespaceContextKey as o, defaultInitialZIndex as p, asyncDataDefaults as q, resolveRouteObject as r, createError as s, throwError as t, useRouter as u, useAppConfig as v, injectHead as w, resolveUnrefHeadInput as x, zIndexContextKey as z };
 //# sourceMappingURL=server.mjs.map

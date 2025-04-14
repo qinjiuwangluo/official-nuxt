@@ -108,11 +108,10 @@
         personal information
       </div>
       <div class="sub_title_1 text-16 md:text-20">
-        1.Without your consent, the Ancient Language Theater APP will not share,
-        transfer, or publicly disclose children's personal information to any
-        company, organization, and individual other than Changsha Ancient
-        Language Network Technology Co., Ltd., except as otherwise provided by
-        laws and regulations.
+        1.Without your consent, {{ data.name_up }} will not share, transfer, or
+        publicly disclose children's personal information to any company,
+        organization, or individual other than the {{ data.name_up }} , except
+        as otherwise provided by laws and regulations.
       </div>
       <div class="text">
         The collected information will not be used for any commercial purpose
@@ -227,7 +226,7 @@ onMounted(async () => {
   font-weight: 600;
   margin: 22px 0;
 }
-.sub_title{
+.sub_title {
   color: #333;
   font-weight: 600;
   margin: 20px 0;

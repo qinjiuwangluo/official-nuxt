@@ -1,18 +1,19 @@
 <template>
   <div class="w-full flex justify-center md:px-32 md:py-32">
     <div class="max-w-[840px] bg-fff md:rounded-8 shadow-2xl p-20">
-      <div class="title text-28 md:text-32" style="text-align: center">User Agreement</div>
-      <div class="text ">
+      <div class="title text-28 md:text-32" style="text-align: center">
+        User Agreement
+      </div>
+      <div class="text">
         Welcome to [{{ data.name_up }}]! This “Short Drama Viewing Service User
-        Agreement” (hereinafter referred to as the “Agreement”) is made by
-        [Changsha {{ data.name_up }} Network Technology Co., Ltd.] (hereinafter referred to
-        as “we” or “platform”) and you (hereinafter referred to as “user”)
-        regarding the short drama viewing service provided by [{{
-          data.name_up
-        }}]. Please read the following terms carefully before using our platform
-        services. Your login, viewing, or other use of our platform services is
-        considered as your full understanding and agreement to accept the
-        constraints of all terms of this Agreement.
+        Agreement” (hereinafter referred to as the “Agreement”) is made by [
+        {{ data.name_up }}] (hereinafter referred to as “we” or “platform”) and
+        you (hereinafter referred to as “user”) regarding the short drama
+        viewing service provided by [{{ data.name_up }}]. Please read the
+        following terms carefully before using our platform services. Your
+        login, viewing, or other use of our platform services is considered as
+        your full understanding and agreement to accept the constraints of all
+        terms of this Agreement.
       </div>
 
       <div class="sub_title text-18 md:text-24">1. Service Content</div>
@@ -30,7 +31,9 @@
         Agreement, in order to register as a user of our platform.
       </div>
 
-      <div class="sub_title text-18 md:text-24">3. Service Use Specifications</div>
+      <div class="sub_title text-18 md:text-24">
+        3. Service Use Specifications
+      </div>
       <div class="text">
         If you need to carry out commercial sales, copying, distribution,
         including but not limited to software sales, pre-installation, bundling,
@@ -56,7 +59,9 @@
         rights of this platform.
       </div>
 
-      <div class="sub_title text-18 md:text-24">4. Intellectual Property Rights</div>
+      <div class="sub_title text-18 md:text-24">
+        4. Intellectual Property Rights
+      </div>
       <div class="text">
         Although we have taken reasonable measures to protect your information,
         please understand that no security measures are absolutely safe.
@@ -87,7 +92,9 @@
         responsibility.
       </div>
 
-      <div class="sub_title text-18 md:text-24">7. Service Changes and Termination</div>
+      <div class="sub_title text-18 md:text-24">
+        7. Service Changes and Termination
+      </div>
       <div class="text">
         We reserve the right to modify, suspend, or terminate the service (all
         or part) at any time without prior notice, and we do not assume
@@ -115,7 +122,9 @@
         important personal data to prevent accidents.
       </div>
 
-      <div class="sub_title text-18 md:text-24">10. User Feedback and Evaluation</div>
+      <div class="sub_title text-18 md:text-24">
+        10. User Feedback and Evaluation
+      </div>
       <div class="text">
         We encourage users to provide feedback and evaluations on the content
         and quality of the platform. Legal and constructive opinions are
@@ -135,7 +144,9 @@
         Agreement and relevant laws and regulations.
       </div>
 
-      <div class="sub_title text-18 md:text-24">12. Revision and Notification</div>
+      <div class="sub_title text-18 md:text-24">
+        12. Revision and Notification
+      </div>
       <div class="text">
         We reserve the right to modify this Agreement at any time. Any changes
         to the Agreement will be announced on the platform and will no longer
@@ -144,7 +155,9 @@
         accept changes to the Agreement.
       </div>
 
-      <div class="sub_title text-18 md:text-24">13. Data Protection and Privacy Enhancement</div>
+      <div class="sub_title text-18 md:text-24">
+        13. Data Protection and Privacy Enhancement
+      </div>
       <div class="text">
         We deeply understand the importance of personal information, so we adopt
         industry-standard security measures to protect user data from
@@ -156,7 +169,9 @@
         and protected.
       </div>
 
-      <div class="sub_title text-18 md:text-24">14. Copyright Infringement Handling Mechanism</div>
+      <div class="sub_title text-18 md:text-24">
+        14. Copyright Infringement Handling Mechanism
+      </div>
       <div class="text">
         We have established a strict copyright infringement complaint and
         handling mechanism to ensure the legality of the platform content. Once
@@ -191,9 +206,9 @@ const name = ref('comon')
 const data = ref({})
 const mock = await useMock()
 onMounted(async () => {
-  const dataObj =  await dataFetch(mock, window.location.host.split('.')[1])
-  name.value =dataObj.name
-  data.value =dataObj.data
+  const dataObj = await dataFetch(mock, window.location.host.split('.')[1])
+  name.value = dataObj.name
+  data.value = dataObj.data
 })
 </script>
 <style lang="scss" scoped>
@@ -203,7 +218,7 @@ onMounted(async () => {
   font-weight: 600;
   margin: 22px 0;
 }
-.sub_title  {
+.sub_title {
   color: #333;
   line-height: 1.2;
   font-weight: 600;
