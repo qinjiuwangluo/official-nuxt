@@ -16,7 +16,8 @@ export default defineNuxtConfig({
   css: [
     '~/assets/less/tailwind.css',
     '~/assets/less/index.less',
-    'animate.css/animate.min.css'
+    'animate.css/animate.min.css',
+    'swiper/css'
   ],
 
   // 运行时的全局变量
