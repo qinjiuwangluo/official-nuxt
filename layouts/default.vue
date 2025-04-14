@@ -10,10 +10,17 @@ import { ref, onMounted } from 'vue'
 
 const mock = await useMock()
 onMounted(async () => {
-  const dataObj =  await dataFetch(mock, window.location.host.split('.')[1])
+  const dataObj = await dataFetch(mock, window.location.host.split('.')[1])
   console.log(dataObj)
   useHead({
     title: dataObj.data.name_up,
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: `/${window.location.host.split('.')[1]}/favicon.ico`
+      }
+    ],
     meta: [
       {
         name: 'viewport',
