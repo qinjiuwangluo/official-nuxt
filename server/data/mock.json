@@ -14,60 +14,60 @@
     "name_up": "DRAMAHIVE",
     "email": "guyanchuangju@163.com",
     "emailHref": "mailto:guyanchuangju@163.com",
-    "iosLink": "https://apps.apple.com/app/id6504334752",
-    "iosScheme": "guyantvappsflyer://",
-    "androidLink": "https://play.google.com/store/apps/details?id=com.gytv.app",
-    "androidScheme": "gytvapp://www.guyantv.com"
+    "iosLink": "",
+    "iosScheme": "",
+    "androidLink": "",
+    "androidScheme": ""
   },
   "moviatv": {
     "name": "Movia TV",
     "name_up": "MOVIA TV",
-    "email": "guyanchuangju@163.com",
-    "emailHref": "mailto:guyanchuangju@163.com",
-    "iosLink": "https://apps.apple.com/app/id6504334752",
-    "iosScheme": "guyantvappsflyer://",
-    "androidLink": "https://play.google.com/store/apps/details?id=com.gytv.app",
-    "androidScheme": "gytvapp://www.guyantv.com"
+   "email": "movia@moviatv.com",
+    "emailHref": "mailto:movia@moviatv.com",
+    "iosLink": "",
+    "iosScheme": "",
+    "androidLink": "",
+    "androidScheme": ""
   },
   "vetrashort": {
     "name": "VetraShort",
     "name_up": "VETRASHORT",
-    "email": "guyanchuangju@163.com",
-    "emailHref": "mailto:guyanchuangju@163.com",
-    "iosLink": "https://apps.apple.com/app/id6504334752",
-    "iosScheme": "guyantvappsflyer://",
-    "androidLink": "https://play.google.com/store/apps/details?id=com.gytv.app",
-    "androidScheme": "gytvapp://www.guyantv.com"
+    "email": "vetra@vetrashort.com",
+    "emailHref": "mailto:vetra@vetrashort.com",
+    "iosLink": "",
+    "iosScheme": "",
+    "androidLink": "",
+    "androidScheme": ""
   },
   "mireotv": {
     "name": "Mireo TV",
     "name_up": "MIREO TV",
-    "email": "guyanchuangju@163.com",
-    "emailHref": "mailto:guyanchuangju@163.com",
-    "iosLink": "https://apps.apple.com/app/id6504334752",
-    "iosScheme": "guyantvappsflyer://",
-    "androidLink": "https://play.google.com/store/apps/details?id=com.gytv.app",
-    "androidScheme": "gytvapp://www.guyantv.com"
+    "email": "cs.baixun@mireotv.com",
+    "emailHref": "mailto:cs.baixun@mireotv.com",
+    "iosLink": "",
+    "iosScheme": "",
+    "androidLink": "",
+    "androidScheme": ""
   },
   "viontv": {
     "name": "Vion TV",
     "name_up": "VION TV",
     "email": "guyanchuangju@163.com",
     "emailHref": "mailto:guyanchuangju@163.com",
-    "iosLink": "https://apps.apple.com/app/id6504334752",
-    "iosScheme": "guyantvappsflyer://",
-    "androidLink": "https://play.google.com/store/apps/details?id=com.gytv.app",
-    "androidScheme": "gytvapp://www.guyantv.com"
+    "iosLink": "",
+    "iosScheme": "",
+    "androidLink": "",
+    "androidScheme": ""
   },
   "zyreotv": {
     "name": "Zyreo TV",
     "name_up": "ZYREO TV",
     "email": "guyanchuangju@163.com",
     "emailHref": "mailto:guyanchuangju@163.com",
-    "iosLink": "https://apps.apple.com/app/id6504334752",
-    "iosScheme": "guyantvappsflyer://",
-    "androidLink": "https://play.google.com/store/apps/details?id=com.gytv.app",
-    "androidScheme": "gytvapp://www.guyantv.com"
+    "iosLink": "",
+    "iosScheme": "",
+    "androidLink": "",
+    "androidScheme": ""
   },
   "comon": {
     "name": "Guyan TV",
@@ -75,10 +75,10 @@
     "time": "2024",
     "email": "guyanchuangju@163.com",
     "emailHref": "mailto:guyanchuangju@163.com",
-    "iosLink": "https://apps.apple.com/app/id6504334752",
-    "iosScheme": "guyantvappsflyer://",
-    "androidLink": "https://play.google.com/store/apps/details?id=com.gytv.app",
-    "androidScheme": "gytvapp://www.guyantv.com",
+    "iosLink": "",
+    "iosScheme": "",
+    "androidLink": "",
+    "androidScheme": "",
     "home": {
       "text": "Here, we've handpicked a selection of mesmerizing short dramas, each one an emotionally wondrous journey. Whether you like romance, comedy, suspense or sci-fi, we have a short show you'll love."
     },
