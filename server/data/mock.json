@@ -42,12 +42,12 @@
   "mireotv": {
     "name": "Mireo TV",
     "name_up": "MIREO TV",
-    "email": "cs.baixun@mireotv.com",
-    "emailHref": "mailto:cs.baixun@mireotv.com",
-    "iosLink": "",
-    "iosScheme": "",
-    "androidLink": "",
-    "androidScheme": ""
+    "email": "guyanchuangju@163.com",
+    "emailHref": "mailto:guyanchuangju@163.com",
+    "iosLink": "https://apps.apple.com/app/id6504334752",
+    "iosScheme": "guyantvappsflyer://",
+    "androidLink": "https://play.google.com/store/apps/details?id=com.gytv.app",
+    "androidScheme": "gytvapp://www.guyantv.com"
   },
   "viontv": {
     "name": "Vion TV",
