@@ -34,7 +34,7 @@
       <div class="sub_title text-18 md:text-24">2. Payment information</div>
       <div class="text">
         When you withdraw or pay, we will obtain the payment information shared
-        by you through the third-party payment platform (WeChat or Alipay), but
+        by you through the third-party payment platform, but
         we will not obtain other information including payment account,
         password, fingerprint password.
       </div>

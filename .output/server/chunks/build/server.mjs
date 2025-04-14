@@ -626,7 +626,7 @@ const _routes = [
   {
     name: "persoInfor_disclosure",
     path: "/persoInfor_disclosure",
-    component: () => import('./persoInfor_disclosure-BOZzvgFp.mjs')
+    component: () => import('./persoInfor_disclosure-DnQOAYJG.mjs')
   },
   {
     name: "private",
