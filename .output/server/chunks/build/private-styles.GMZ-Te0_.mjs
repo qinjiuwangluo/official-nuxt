@@ -1,0 +1,6 @@
+const private_vue_vue_type_style_index_0_scoped_2f859d60_lang = '.title[data-v-2f859d60]{font-size:2rem;margin:1.375rem 0}.sub_title[data-v-2f859d60],.title[data-v-2f859d60]{color:#333;font-weight:600;line-height:1.2}.sub_title[data-v-2f859d60]{margin:1.25rem 0}.sub_title_1[data-v-2f859d60]{color:#333;font-size:1.125rem;font-weight:600;line-height:1.2;margin:1.125rem 0}.text[data-v-2f859d60]{color:#444;font-family:"Arial, sans-serif";margin:1rem 0}.text[data-v-2f859d60],li[data-v-2f859d60]{line-height:1.6}li[data-v-2f859d60]{color:#666;list-style-type:disc;margin:.625rem 0 .625rem 1.25rem}strong[data-v-2f859d60]{padding-right:.625rem}a[data-v-2f859d60]{color:#00f;text-decoration:underline}';
+
+const privateStyles_GMZTe0_ = [private_vue_vue_type_style_index_0_scoped_2f859d60_lang];
+
+export { privateStyles_GMZTe0_ as default };
+//# sourceMappingURL=private-styles.GMZ-Te0_.mjs.map

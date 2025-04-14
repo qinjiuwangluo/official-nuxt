@@ -1,0 +1,4 @@
+const index_vue_vue_type_style_index_0_lang = ".wave path:first-child{opacity:.15}.wave path:nth-child(2){opacity:.3}.jump{animation:jump 5s linear 0s infinite normal forwards}.custom-swiper-sm{padding-bottom:1rem}.custom-swiper-sm .swiper-slide{opacity:.9;transform:scale(.8);transition:transform .3s ease}.custom-swiper-sm .swiper-slide-active{opacity:1;transform:scale(1);z-index:10}.custom-swiper-sm .slide-img{border-radius:.625rem;width:100%}.swiper-pagination-horizontal{bottom:0!important}.custom-swiper-lg{padding-bottom:1rem}.custom-swiper-lg .swiper-slide{opacity:.9;transform:scale(.8);transition:transform .3s ease}.custom-swiper-lg .swiper-slide-active{opacity:1;transform:scale(1);z-index:10}.custom-swiper-lg .slide-img{border-radius:.625rem;-o-object-fit:cover;object-fit:cover;width:100%}";
+
+export { index_vue_vue_type_style_index_0_lang as i };
+//# sourceMappingURL=index-styles-1.mjs.mjs.map

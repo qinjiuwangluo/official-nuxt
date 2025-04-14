@@ -1,0 +1,6 @@
+const member_ship_agreement_vue_vue_type_style_index_0_scoped_5c8e9999_lang = '.title[data-v-5c8e9999]{color:#333;font-size:2rem;font-weight:600;line-height:1.4;margin:1.375rem 0}.sub_title[data-v-5c8e9999]{font-size:1.5rem;margin:1.25rem 0}.sub_title[data-v-5c8e9999],.sub_title_1[data-v-5c8e9999]{color:#333;font-weight:600;line-height:1.6}.sub_title_1[data-v-5c8e9999]{font-size:1.125rem;margin:1.125rem 0}.text[data-v-5c8e9999]{color:#444;font-family:"Arial, sans-serif";margin:1rem 0}.text[data-v-5c8e9999],li[data-v-5c8e9999]{line-height:1.6}li[data-v-5c8e9999]{color:#666;list-style-type:disc;margin:.625rem 0 .625rem 1.25rem}strong[data-v-5c8e9999]{padding-right:.625rem}a[data-v-5c8e9999]{color:#00f;text-decoration:underline}';
+
+const member_ship_agreementStyles_CLho2Ouj = [member_ship_agreement_vue_vue_type_style_index_0_scoped_5c8e9999_lang];
+
+export { member_ship_agreementStyles_CLho2Ouj as default };
+//# sourceMappingURL=member_ship_agreement-styles.CLho2Ouj.mjs.map
