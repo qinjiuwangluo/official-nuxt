@@ -22,7 +22,7 @@
   "moviatv": {
     "name": "Movia TV",
     "name_up": "MOVIA TV",
-   "email": "movia@moviatv.com",
+    "email": "movia@moviatv.com",
     "emailHref": "mailto:movia@moviatv.com",
     "iosLink": "",
     "iosScheme": "",
@@ -44,6 +44,16 @@
     "name_up": "MIREO TV",
     "email": "cs.baixun@mireotv.com",
     "emailHref": "mailto:cs.baixun@mireotv.com",
+    "iosLink": "",
+    "iosScheme": "",
+    "androidLink": "",
+    "androidScheme": ""
+  },
+  "zyreotv": {
+    "name": "ZyreoTV TV",
+    "name_up": "ZyreoTV TV",
+    "email": "zyreotv@zyreotv.com",
+    "emailHref": "mailto:zyreotv@zyreotv.com",
     "iosLink": "",
     "iosScheme": "",
     "androidLink": "",
