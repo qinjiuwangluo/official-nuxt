@@ -601,7 +601,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-BnsPW_FQ.mjs')
+    component: () => import('./index-nSIdlXMV.mjs')
   },
   {
     name: "information_protection",

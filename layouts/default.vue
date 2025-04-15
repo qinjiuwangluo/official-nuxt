@@ -10,14 +10,16 @@ import { ref, onMounted } from 'vue'
 
 const mock = await useMock()
 onMounted(async () => {
-  const dataObj = await dataFetch(mock, window.location.host.split('.')[1])
+  const host = window.location.host
+  const regex = /(?:www\.)?([a-zA-Z0-9-]+)\.com/
+  const dataObj = await dataFetch(mock, host.match(regex)?.[1] || 'comon')
   useHead({
     title: dataObj.data.name_up,
     link: [
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: `/${window.location.host.split('.')[1]}/favicon.ico`
+        href: `/${host.match(regex)?.[1]  || 'comon'}/favicon.ico`
       }
     ],
     meta: [

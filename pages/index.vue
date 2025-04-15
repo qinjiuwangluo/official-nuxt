@@ -17,7 +17,6 @@ onMounted(async () => {
   const host = window.location.host
   const regex = /(?:www\.)?([a-zA-Z0-9-]+)\.com/
   const dataObj = await dataFetch(mock, host.match(regex)?.[1] || 'comon')
-  console.log(window.location.host)
   name.value = dataObj.name
   data.value = dataObj.data
 })

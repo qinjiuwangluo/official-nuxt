@@ -89,7 +89,11 @@ const scrollPosition = ref(0)
 const name = ref('comon')
 const mock = await useMock()
 onMounted(async () => {
-  name.value = await dataFetch(mock, window.location.host.split('.')[1]).name
+  
+  const host = window.location.host
+  const regex = /(?:www\.)?([a-zA-Z0-9-]+)\.com/
+  const dataObj = await dataFetch(mock, host.match(regex)?.[1] || 'comon')
+  name.value = dataObj.name
   window.addEventListener('scroll', updateScrollPosition)
 })
 onUnmounted(() => {
