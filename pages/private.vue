@@ -3,17 +3,17 @@
     <div class="max-w-[840px] bg-fff md:rounded-8 shadow-2xl p-20">
       <div class="title text-28 md:text-32">Privacy Policy</div>
       <div class="text">
-        Welcome to our “{{data.name_up}}” app! We place a high priority on the privacy
-        and protection of user's personal information. This privacy policy is
-        intended to clarify how we gather, utilize, store, and safeguard your
-        personal information. Please carefully review the following before using
-        our services.
+        Welcome to our “{{ data.name_up }}” app! We place a high priority on the
+        privacy and protection of user's personal information. This privacy
+        policy is intended to clarify how we gather, utilize, store, and
+        safeguard your personal information. Please carefully review the
+        following before using our services.
       </div>
 
       <div class="sub_title text-18 md:text-24">1. Scope</div>
       <div class="text">
         This privacy policy applies to the personal information that we collect
-        and process when you use our “{{data.name_up}}” app.
+        and process when you use our “{{ data.name_up }}” app.
       </div>
 
       <div class="sub_title text-18 md:text-24">2. Data Collection</div>
@@ -31,7 +31,9 @@
         </li>
       </ul>
 
-      <div class="sub_title text-18 md:text-241">2.1. Accessing Google User Data</div>
+      <div class="sub_title text-18 md:text-241">
+        2.1. Accessing Google User Data
+      </div>
       <div class="text">
         Our application may gain your authorization via the Google API platform
         to access your Google user data. This data may include personal profile
@@ -41,7 +43,9 @@
         application.
       </div>
 
-      <div class="sub_title text-18 md:text-241">2.2. Utilizing Google User Data</div>
+      <div class="sub_title text-18 md:text-241">
+        2.2. Utilizing Google User Data
+      </div>
       <div class="text">
         We use your Google user data to provide and enhance our services. This
         includes but is not limited to displaying personalized content to you,
@@ -50,7 +54,9 @@
         you and comply with applicable privacy policies and regulations.
       </div>
 
-      <div class="sub_title text-18 md:text-241">2.3. Storing Google User Data</div>
+      <div class="sub_title text-18 md:text-241">
+        2.3. Storing Google User Data
+      </div>
       <div class="text">
         We may store your Google user data on secure servers to provide you with
         the necessary services and features. We take appropriate security
@@ -79,7 +85,9 @@
         </li>
       </ul>
 
-      <div class="sub_title text-18 md:text-24">4. Information Sharing and Transfer</div>
+      <div class="sub_title text-18 md:text-24">
+        4. Information Sharing and Transfer
+      </div>
       <div class="text">
         We will not transfer your personal information to any third party,
         unless:
@@ -139,7 +147,9 @@
         latest content of the privacy policy.
       </div>
 
-      <div class="sub_title text-18 md:text-24">8. International User Notice</div>
+      <div class="sub_title text-18 md:text-24">
+        8. International User Notice
+      </div>
       <div class="text">
         For non-domestic users, your information may be transmitted to and
         stored in the location of our servers. We will take measures to ensure
@@ -148,7 +158,9 @@
         measures to maintain the security of your personal information.
       </div>
 
-      <div class="sub_title text-18 md:text-24">9. Child Privacy Protection</div>
+      <div class="sub_title text-18 md:text-24">
+        9. Child Privacy Protection
+      </div>
       <div class="text">
         We attach great importance to the protection of children’s personal
         information. This application does not provide services to users under
@@ -159,7 +171,9 @@
         by law.
       </div>
 
-      <div class="sub_title text-18 md:text-24">10. Non-Discrimination Policy</div>
+      <div class="sub_title text-18 md:text-24">
+        10. Non-Discrimination Policy
+      </div>
       <div class="text">
         We promise that we will not discriminate against you when processing
         your personal information requests and exercising your rights, including
@@ -200,7 +214,7 @@
       <div class="text">
         If you have any questions, comments, or suggestions about this privacy
         policy, please send an email to the following email address:
-        <a :href="data.emailHref">{{data.email}}</a>
+        <a :href="data.emailHref">{{ data.email }}</a>
       </div>
       <div class="text">
         This privacy policy explains our basic principles for handling your
@@ -212,25 +226,27 @@
       <div class="sub_title text-18 md:text-24">Conclusion</div>
       <div class="text">
         We encourage you to review this privacy policy regularly to understand
-        how we protect your information. Using our “{{data.name_up}}” app means you
-        agree to this privacy policy and its updates. We value every user and
-        are committed to providing you with a safe, reliable, and enjoyable
-        entertainment experience. If you have any doubts or feedback, we
-        sincerely invite you to contact us and work together to create a more
+        how we protect your information. Using our “{{ data.name_up }}” app
+        means you agree to this privacy policy and its updates. We value every
+        user and are committed to providing you with a safe, reliable, and
+        enjoyable entertainment experience. If you have any doubts or feedback,
+        we sincerely invite you to contact us and work together to create a more
         transparent and safe online environment.
       </div>
     </div>
   </div>
 </template>
 <script setup>
-import {  ref, onMounted } from 'vue'
+import { ref, onMounted } from 'vue'
 const name = ref('comon')
 const data = ref({})
 const mock = await useMock()
 onMounted(async () => {
-  const dataObj =  await dataFetch(mock, window.location.host.split('.')[1])
-  name.value =dataObj.name
-  data.value =dataObj.data
+  const host = window.location.host
+  const regex = /(?:www\.)?([a-zA-Z0-9-]+)\.com/
+  const dataObj = await dataFetch(mock, host.match(regex)?.[1] || 'comon')
+  name.value = dataObj.name
+  data.value = dataObj.data
 })
 </script>
 <style lang="scss" scoped>
@@ -241,7 +257,7 @@ onMounted(async () => {
   font-weight: 600;
   margin: 22px 0;
 }
-.sub_title  {
+.sub_title {
   color: #333;
   line-height: 1.2;
   font-weight: 600;

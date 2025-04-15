@@ -206,7 +206,9 @@ const name = ref('comon')
 const data = ref({})
 const mock = await useMock()
 onMounted(async () => {
-  const dataObj = await dataFetch(mock, window.location.host.split('.')[1])
+  const host = window.location.host
+  const regex = /(?:www\.)?([a-zA-Z0-9-]+)\.com/
+  const dataObj = await dataFetch(mock, host.match(regex)?.[1] || 'comon')
   name.value = dataObj.name
   data.value = dataObj.data
 })

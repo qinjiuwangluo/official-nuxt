@@ -596,7 +596,7 @@ const _routes = [
   {
     name: "civizatio_convention",
     path: "/civizatio_convention",
-    component: () => import('./civizatio_convention-Cpmd8U9p.mjs')
+    component: () => import('./civizatio_convention-Craj-2Bl.mjs')
   },
   {
     name: "index",
@@ -606,12 +606,12 @@ const _routes = [
   {
     name: "information_protection",
     path: "/information_protection",
-    component: () => import('./information_protection-Dtjf0nUi.mjs')
+    component: () => import('./information_protection-Cg3HRR7b.mjs')
   },
   {
     name: "information_sharing",
     path: "/information_sharing",
-    component: () => import('./information_sharing-DaL0abiy.mjs')
+    component: () => import('./information_sharing-DBUvuQcC.mjs')
   },
   {
     name: "logout",
@@ -621,22 +621,22 @@ const _routes = [
   {
     name: "member_ship_agreement",
     path: "/member_ship_agreement",
-    component: () => import('./member_ship_agreement-DntpX1Kl.mjs')
+    component: () => import('./member_ship_agreement-BMTZMZar.mjs')
   },
   {
     name: "persoInfor_disclosure",
     path: "/persoInfor_disclosure",
-    component: () => import('./persoInfor_disclosure-BtETW7_J.mjs')
+    component: () => import('./persoInfor_disclosure-UUWxMLCm.mjs')
   },
   {
     name: "private",
     path: "/private",
-    component: () => import('./private-DoD7R-fa.mjs')
+    component: () => import('./private-CpHHxTi2.mjs')
   },
   {
     name: "user_policy",
     path: "/user_policy",
-    component: () => import('./user_policy-EzxQaBCv.mjs')
+    component: () => import('./user_policy-57B10pFX.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
