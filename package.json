@@ -4,6 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
+    "build:zip": "nuxt build && powershell Compress-Archive -Path .output\\* -DestinationPath output.zip",
+    "build:zip1": "nuxt build && cd .output && zip -r ../output.zip . && cd ..",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
