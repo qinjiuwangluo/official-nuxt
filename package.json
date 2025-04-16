@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-  "zip": "powershell -Command \"Remove-Item output.zip -ErrorAction SilentlyContinue; Compress-Archive -Path .output/* -DestinationPath output.zip\"",
-  "build:zip": "npm run build && npm run zip",
+    "zip": "powershell -Command \"Remove-Item output.zip -ErrorAction SilentlyContinue; Compress-Archive -Path .output/* -DestinationPath output.zip\"",
+    "build:zip": "npm run build && npm run zip",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
