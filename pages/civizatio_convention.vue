@@ -1,201 +1,95 @@
 <template>
-  <div class="w-full flex justify-center md:px-32 md:py-32">
+  <div class="w-full flex justify-center md:px-32 md:py-32 leading-1.6">
     <div class="max-w-[840px] bg-fff md:rounded-8 shadow-2xl p-20">
       <div class="title text-28 md:text-32" style="text-align: center">
-        User Agreement
+        National Youth Internet Civilization Convention
       </div>
       <div class="text">
-        Welcome to [{{ data.name_up }}]! This “Short Drama Viewing Service User
-        Agreement” (hereinafter referred to as the “Agreement”) is made by [
-        {{ data.name_up }}] (hereinafter referred to as “we” or “platform”) and
-        you (hereinafter referred to as “user”) regarding the short drama
-        viewing service provided by [{{ data.name_up }}]. Please read the
-        following terms carefully before using our platform services. Your
-        login, viewing, or other use of our platform services is considered as
-        your full understanding and agreement to accept the constraints of all
-        terms of this Agreement.
-      </div>
-
-      <div class="sub_title text-18 md:text-24">1. Service Content</div>
-      <div class="text">
-        We provide users with online viewing, sharing, and other services of
-        overseas short dramas. The specific content, form, and operation rules
-        of the service, we have the right to adjust from time to time according
-        to actual conditions.
-      </div>
-
-      <div class="sub_title text-18 md:text-24">2. User Qualifications</div>
-      <div class="text">
-        You must be at least 18 years old, have full civil capacity, and agree
-        to abide by the laws and regulations of your country and region and this
-        Agreement, in order to register as a user of our platform.
+        To enhance the awareness of young people to consciously resist bad
+        information online, the “Ancient Language Theater” app calls on the
+        majority of young people to actively learn the “National Youth Internet
+        Civilization Convention”, enhance the awareness of protection, and surf
+        the internet safely and civilly!
       </div>
 
       <div class="sub_title text-18 md:text-24">
-        3. Service Use Specifications
+        National Youth Internet Civilization Convention
+      </div>
+      <ul>
+        <li>Be good at online learning, do not browse bad information;</li>
+        <li>
+          Be honest and friendly in communication, do not insult or deceive
+          others;
+        </li>
+        <li>Maintain network security, do not disrupt network order;</li>
+        <li>
+          Be beneficial to physical and mental health, do not indulge in virtual
+          space.
+        </li>
+      </ul>
+
+      <div class="sub_title text-18 md:text-24">Interpretation</div>
+      <div class="sub_title_1 text-16 md:text-20">
+        1. Be good at online learning, do not browse bad information.
       </div>
       <div class="text">
-        If you need to carry out commercial sales, copying, distribution,
-        including but not limited to software sales, pre-installation, bundling,
-        etc., you must obtain the separate written authorization and permission
-        of the software copyright owner.
+        Meaning: Use the internet as a new tool for extracurricular learning and
+        a new way to understand the world. Do not contact or browse
+        inappropriate content related to pornography, hatred, violence, cults,
+        or incitement to illegal activities. If you have already come into
+        contact with this bad information, tell your parents and teachers in
+        time to get help.
+      </div>
+      <div class="sub_title_1 text-16 md:text-20">
+        2. Be honest and friendly in communication, do not insult or deceive
+        others.
       </div>
       <div class="text">
-        Prohibition of reverse engineering, reverse compilation, and reverse
-        assembly: Users are not allowed to reverse engineer, reverse compile
-        (decompile) or reverse assemble (disassemble) this software product, nor
-        are they allowed to change the compiled code in the program files. Any
-        resources. Except for what is explicitly allowed by laws and
-        regulations, users must abide by the restrictions of this Agreement.
+        Meaning: When communicating through the internet, still be polite to
+        people, do not use foul language; be sincere in attitude, do not deceive
+        others; respect etiquette, do not do whatever you want. In short,
+        respect others, and you will be respected by others.
+      </div>
+      <div class="sub_title_1 text-16 md:text-20">
+        3. Enhance self-protection awareness, do not casually meet with
+        netizens.
       </div>
       <div class="text">
-        Component Splitting: This software product is authorized as a whole
-        product, and users are not allowed to split individual components for
-        any purpose.
+        Meaning: Do not disclose any information about your family, including
+        name, address, phone number, etc.; do not easily believe others; do not
+        meet friends online without the consent of your parents; do not
+        increasingly provoke maliciously; do not participate in bad online
+        games, etc. When you encounter information that makes you uncomfortable,
+        do not reply and immediately tell your parents and teachers.
+      </div>
+      <div class="sub_title_1 text-16 md:text-20">
+        4. Maintain network security, do not disrupt network order.
       </div>
       <div class="text">
-        You can delete your account, and you should understand that once you
-        delete your account, you will lose all or part of the access and use
-        rights of this platform.
+        Meaning: Dare to take on the responsibility of the “Network Security
+        Messenger”. On the premise of ensuring that you do not participate in
+        activities that violate morals and laws, for the little friends around
+        you who have bad behaviors, you should persuade or tell parents and
+        teachers.
+      </div>
+      <div class="sub_title_1 text-16 md:text-20">
+        5. Be beneficial to physical and mental health, do not indulge in
+        virtual space.
+      </div>
+      <div class="text">
+        Meaning: Cultivate the ability to self-discipline. Make some internet
+        rules, post them near the computer, and remind yourself all the time;
+        each continuous internet time does not exceed 1 hour, insist on doing
+        eye exercises; make a study plan, do not blindly surf the internet;
+        insist on outdoor running, ensure a healthy body.
       </div>
 
-      <div class="sub_title text-18 md:text-24">
-        4. Intellectual Property Rights
-      </div>
       <div class="text">
-        Although we have taken reasonable measures to protect your information,
-        please understand that no security measures are absolutely safe.
-        Therefore, we cannot guarantee the absolute security of your personal
-        information during transmission and storage. For any loss or leakage
-        caused by this, we will bear the corresponding responsibility according
-        to laws and regulations and the provisions of this policy.
-      </div>
-
-      <div class="sub_title text-18 md:text-24">5. Privacy Protection</div>
-      <div class="text">
-        We promise to protect the security of users’ personal information, for
-        details, please refer to our “Privacy Policy”. Use of this service means
-        that you agree to our collection, use, storage, and disclosure of your
-        personal information in accordance with the “Privacy Policy”.
-      </div>
-
-      <div class="sub_title text-18 md:text-24">6. Limitation of Liability</div>
-      <div class="text">
-        We strive to provide stable, high-quality services, but due to the
-        special nature of the Internet, we cannot guarantee the absolute
-        continuity and stability of the service, and we do not assume legal
-        responsibility for the inconvenience caused by this.
-      </div>
-      <div class="text">
-        For any third-party claims arising from the user’s violation of this
-        Agreement or relevant laws and regulations, the user must bear the
-        responsibility.
-      </div>
-
-      <div class="sub_title text-18 md:text-24">
-        7. Service Changes and Termination
-      </div>
-      <div class="text">
-        We reserve the right to modify, suspend, or terminate the service (all
-        or part) at any time without prior notice, and we do not assume
-        responsibility for any loss or inconvenience caused by this.
-      </div>
-
-      <div class="sub_title text-18 md:text-24">8. Others</div>
-      <div class="text">
-        This Agreement constitutes a complete agreement between the two parties
-        regarding the use of the service, replacing all previous oral or written
-        agreements or communications.
-      </div>
-      <div class="text">
-        If any term of this Agreement is deemed invalid or unenforceable, it
-        does not affect the effectiveness of other terms.
-      </div>
-
-      <div class="sub_title text-18 md:text-24">9. Disclaimer</div>
-      <div class="text">
-        For service interruptions or data loss caused by force majeure factors
-        (such as natural disasters, government actions, social abnormal events,
-        etc.), third-party service interruptions, technical defects, and other
-        situations beyond our reasonable control, we do not assume any direct or
-        indirect responsibility. We recommend that users regularly back up
-        important personal data to prevent accidents.
-      </div>
-
-      <div class="sub_title text-18 md:text-24">
-        10. User Feedback and Evaluation
-      </div>
-      <div class="text">
-        We encourage users to provide feedback and evaluations on the content
-        and quality of the platform. Legal and constructive opinions are
-        important references for us to improve our services. However, users
-        should ensure the authenticity of the feedback content and should not
-        abuse the evaluation system to publish false information or carry out
-        malicious attacks.
-      </div>
-
-      <div class="sub_title text-18 md:text-24">11. Protection of Minors</div>
-      <div class="text">
-        We attach great importance to the network protection of minors. If the
-        user is under 18 years old, they should use our platform services with
-        the consent and guidance of their legal guardian. The guardian should
-        bear the supervision responsibility of the minor’s use of our platform,
-        and ensure that their behavior complies with the requirements of this
-        Agreement and relevant laws and regulations.
-      </div>
-
-      <div class="sub_title text-18 md:text-24">
-        12. Revision and Notification
-      </div>
-      <div class="text">
-        We reserve the right to modify this Agreement at any time. Any changes
-        to the Agreement will be announced on the platform and will no longer
-        notify each user individually. Users should regularly check the latest
-        version of this Agreement. Continued use of the service is deemed to
-        accept changes to the Agreement.
-      </div>
-
-      <div class="sub_title text-18 md:text-24">
-        13. Data Protection and Privacy Enhancement
-      </div>
-      <div class="text">
-        We deeply understand the importance of personal information, so we adopt
-        industry-standard security measures to protect user data from
-        unauthorized access, disclosure, use, modification, or destruction. This
-        includes but is not limited to encryption technology, access control
-        mechanisms, and regular security audits. We promise that unless required
-        by law or the user explicitly agrees, we will not disclose user personal
-        information to third parties, ensuring that user privacy is respected
-        and protected.
-      </div>
-
-      <div class="sub_title text-18 md:text-24">
-        14. Copyright Infringement Handling Mechanism
-      </div>
-      <div class="text">
-        We have established a strict copyright infringement complaint and
-        handling mechanism to ensure the legality of the platform content. Once
-        we receive an infringement notice from a legal copyright holder, we will
-        respond quickly, conduct an investigation in accordance with relevant
-        laws and regulations, and promptly take removal measures once the
-        infringement behavior is confirmed to be true. At the same time, we
-        provide users with a convenient infringement reporting channel,
-        encouraging users to participate in copyright protection actions, and
-        jointly maintain the dignity of intellectual property rights.
-      </div>
-
-      <div class="sub_title text-18 md:text-24">
-        15. International Service and Cultural Diversity
-      </div>
-      <div class="text">
-        As a short drama viewing platform for global users, we respect and
-        celebrate cultural diversity, strive to provide multi-language
-        subtitles, multi-national content filtering and other functions, aiming
-        to break cultural and language barriers, and promote cultural exchange
-        and understanding around the world. We believe that film and television
-        art is a bridge that crosses national boundaries. Through our services,
-        users can easily explore and appreciate wonderful stories from all over
-        the world.
+        The internet presents a brand new life picture in front of us. At the
+        same time, a beautiful internet life also needs us to create it with our
+        own virtues and civilization. Let us actively respond to the call of the
+        “National Youth Internet Civilization Convention”, start from me, start
+        from now, self-respect, self-discipline, civilized internet!
       </div>
     </div>
   </div>
@@ -216,25 +110,21 @@ onMounted(async () => {
 <style lang="scss" scoped>
 .title {
   color: #333;
-  line-height: 1.2;
   font-weight: 600;
   margin: 22px 0;
 }
 .sub_title {
   color: #333;
-  line-height: 1.2;
   font-weight: 600;
   margin: 20px 0;
 }
 .text {
   color: #444;
-  line-height: 1.6;
   margin: 16px 0;
   font-family: 'Arial, sans-serif';
 }
 li {
   color: #666;
-  line-height: 1.6;
   margin: 10px 0 10px 20px;
   list-style-type: disc;
 }
