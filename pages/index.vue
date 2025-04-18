@@ -348,8 +348,11 @@ const openApp = (type) => {
       <div class="w-full lg:w-auto flex flex-col items-center lg:items-start">
         <img class="h-30" :src="`/${name}/logo.png`" alt="" />
         <div class="pt-30">
-          Copyright © {{ data.time || 2025 }}.{{ data.name_up }} All rights
-          reserved.
+          {{
+            data.copyright ||
+            `Copyright © 2024. ${data.name_up} All rights
+          reserved.`
+          }}
         </div>
       </div>
       <div
